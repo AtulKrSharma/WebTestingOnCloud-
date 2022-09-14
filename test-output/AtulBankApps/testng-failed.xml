@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AtulBankApps]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="BankingApp(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.trax.testCases.TC_addAndPopulateJobTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="addAndPopulateJobTest"/>
+        </methods>
+      </class> <!-- com.trax.testCases.TC_addAndPopulateJobTest -->
+    </classes>
+  </test> <!-- BankingApp(failed) -->
+</suite> <!-- Failed suite [AtulBankApps] -->
